@@ -29,11 +29,11 @@ DEBUG = True
 ALLOWED_HOSTS = ['*',
                  'localhost', 'http://127.0.0.1:3000',
                  'http://127.0.0.1:8000',
-                 'https://mariiabai-8000.theiadockernext-0-labs-prod-t'
-                 'heiak8s-4-tor01.proxy.cognitiveclass.ai']
+                 'https://theiadockernext-0-labs-prod'
+                 '-theiak8s-4-tor01.labs.cognitiveclass.ai:8000']
 CSRF_TRUSTED_ORIGINS = [
-    'https://mariiabai-8000.theiadockernext-0-labs-prod'
-    'theiak8s-4-tor01.proxy.cognitiveclass.ai']
+     'https://theiadockernext-0-labs-prod'
+     '-theiak8s-4-tor01.labs.cognitiveclass.ai:8000']
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
 }
