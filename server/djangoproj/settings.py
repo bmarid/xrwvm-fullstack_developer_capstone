@@ -33,7 +33,9 @@ ALLOWED_HOSTS = ['*',
                  '-theiak8s-4-tor01.labs.cognitiveclass.ai:8000']
 CSRF_TRUSTED_ORIGINS = [
      'https://theiadockernext-0-labs-prod'
-     '-theiak8s-4-tor01.labs.cognitiveclass.ai:8000']
+     '-theiak8s-4-tor01.labs.cognitiveclass.ai:8000',
+     'https://mariiabai-8000.theianext-1-'
+    'labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',]
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
 }
